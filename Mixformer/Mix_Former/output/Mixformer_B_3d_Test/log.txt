@@ -1,0 +1,2 @@
+[ Sat Nov  9 18:36:45 2024 ] Load weights from ./output/Mixformer_B_3d/runs-79-10270.pt.
+[ Sat Nov  9 18:36:47 2024 ] using warm up, epoch: 5

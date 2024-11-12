@@ -1,0 +1,234 @@
+[ 2024-11-11 11:52 ] Model load finished: model.sttformer.Model
+[ 2024-11-11 11:52 ] Data load finished
+[ 2024-11-11 11:52 ] Optimizer load finished: SGD
+[ 2024-11-11 11:52 ] base_lr: 0.1
+[ 2024-11-11 11:52 ] batch_size: 64
+[ 2024-11-11 11:52 ] config: ./config/uav_csv1/motion.yaml
+[ 2024-11-11 11:52 ] cuda_visible_device: 0,1,2,3
+[ 2024-11-11 11:52 ] device: [0]
+[ 2024-11-11 11:52 ] eval_interval: 5
+[ 2024-11-11 11:52 ] feeder: feeders.feeder_uav.Feeder
+[ 2024-11-11 11:52 ] ignore_weights: []
+[ 2024-11-11 11:52 ] lr_decay_rate: 0.1
+[ 2024-11-11 11:52 ] model: model.sttformer.Model
+[ 2024-11-11 11:52 ] model_args: {'len_parts': 6, 'num_frames': 120, 'num_joints': 17, 'num_classes': 155, 'num_heads': 3, 'kernel_size': [3, 5], 'num_persons': 2, 'num_channels': 3, 'use_pes': True, 'config': [[64, 64, 16], [64, 64, 16], [64, 128, 32], [128, 128, 32], [128, 256, 64], [256, 256, 64], [256, 256, 64], [256, 256, 64]]}
+[ 2024-11-11 11:52 ] nesterov: True
+[ 2024-11-11 11:52 ] num_epoch: 90
+[ 2024-11-11 11:52 ] num_worker: 0
+[ 2024-11-11 11:52 ] optimizer: SGD
+[ 2024-11-11 11:52 ] print_log: True
+[ 2024-11-11 11:52 ] run_mode: train
+[ 2024-11-11 11:52 ] save_epoch: 80
+[ 2024-11-11 11:52 ] save_score: True
+[ 2024-11-11 11:52 ] show_topk: [1, 5]
+[ 2024-11-11 11:52 ] start_epoch: 0
+[ 2024-11-11 11:52 ] step: [60, 80]
+[ 2024-11-11 11:52 ] test_batch_size: 64
+[ 2024-11-11 11:52 ] test_feeder_args: {'data_path': '/root/autodl-tmp/Data_processed/Mixformer_3d/Valid_Mixformer_3d.npz', 'split': 'test', 'debug': False, 'window_size': 120, 'p_interval': [0.95], 'vel': True, 'bone': False}
+[ 2024-11-11 11:52 ] train_feeder_args: {'data_path': '/root/autodl-tmp/Data_processed/Mixformer_3d/Train_Mixformer_3d.npz', 'split': 'train', 'debug': False, 'random_choose': False, 'random_shift': False, 'random_move': False, 'window_size': 120, 'normalization': False, 'random_rot': True, 'p_interval': [0.5, 1], 'vel': True, 'bone': False}
+[ 2024-11-11 11:52 ] warm_up_epoch: 5
+[ 2024-11-11 11:52 ] weight_decay: 0.0004
+[ 2024-11-11 11:52 ] weights: None
+[ 2024-11-11 11:52 ] work_dir: ./outputs/Test3
+[ 2024-11-11 11:52 ] # Parameters: 5967699
+[ 2024-11-11 11:52 ] ###***************start training***************###
+[ 2024-11-11 11:52 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 11:54 ] training: epoch: 1, loss: 4.7180, top1: 1.80%, lr: 0.020000
+[ 2024-11-11 11:54 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 11:56 ] training: epoch: 2, loss: 4.3515, top1: 3.50%, lr: 0.040000
+[ 2024-11-11 11:56 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 11:59 ] training: epoch: 3, loss: 4.0774, top1: 5.38%, lr: 0.060000
+[ 2024-11-11 11:59 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 12:01 ] training: epoch: 4, loss: 3.7810, top1: 8.90%, lr: 0.080000
+[ 2024-11-11 12:01 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 12:04 ] training: epoch: 5, loss: 3.3523, top1: 15.56%, lr: 0.100000
+[ 2024-11-11 12:04 ] evaluating: loss: 4.1311, top1: 10.10%, best_acc: 10.10%
+[ 2024-11-11 12:04 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 12:06 ] training: epoch: 6, loss: 2.9818, top1: 22.29%, lr: 0.100000
+[ 2024-11-11 12:06 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 12:08 ] training: epoch: 7, loss: 2.7325, top1: 27.78%, lr: 0.100000
+[ 2024-11-11 12:08 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 12:11 ] training: epoch: 8, loss: 2.5618, top1: 31.47%, lr: 0.100000
+[ 2024-11-11 12:11 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 12:13 ] training: epoch: 9, loss: 2.4504, top1: 34.11%, lr: 0.100000
+[ 2024-11-11 12:13 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 12:15 ] training: epoch: 10, loss: 2.3346, top1: 36.50%, lr: 0.100000
+[ 2024-11-11 12:15 ] evaluating: loss: 5.4912, top1: 10.20%, best_acc: 10.20%
+[ 2024-11-11 12:15 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 12:18 ] training: epoch: 11, loss: 2.2706, top1: 38.54%, lr: 0.100000
+[ 2024-11-11 12:18 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 12:20 ] training: epoch: 12, loss: 2.1883, top1: 40.27%, lr: 0.100000
+[ 2024-11-11 12:20 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 12:23 ] training: epoch: 13, loss: 2.1410, top1: 41.30%, lr: 0.100000
+[ 2024-11-11 12:23 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 12:25 ] training: epoch: 14, loss: 2.1148, top1: 41.94%, lr: 0.100000
+[ 2024-11-11 12:25 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 12:27 ] training: epoch: 15, loss: 2.0525, top1: 43.42%, lr: 0.100000
+[ 2024-11-11 12:27 ] evaluating: loss: 5.4151, top1: 11.45%, best_acc: 11.45%
+[ 2024-11-11 12:27 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 12:30 ] training: epoch: 16, loss: 2.0103, top1: 44.63%, lr: 0.100000
+[ 2024-11-11 12:30 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 12:32 ] training: epoch: 17, loss: 1.9931, top1: 44.83%, lr: 0.100000
+[ 2024-11-11 12:32 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 12:34 ] training: epoch: 18, loss: 1.9597, top1: 45.91%, lr: 0.100000
+[ 2024-11-11 12:34 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 12:37 ] training: epoch: 19, loss: 1.9111, top1: 46.94%, lr: 0.100000
+[ 2024-11-11 12:37 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 12:39 ] training: epoch: 20, loss: 1.8971, top1: 46.91%, lr: 0.100000
+[ 2024-11-11 12:39 ] evaluating: loss: 4.4300, top1: 17.25%, best_acc: 17.25%
+[ 2024-11-11 12:39 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 12:42 ] training: epoch: 21, loss: 1.8775, top1: 47.49%, lr: 0.100000
+[ 2024-11-11 12:42 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 12:44 ] training: epoch: 22, loss: 1.8400, top1: 49.08%, lr: 0.100000
+[ 2024-11-11 12:44 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 12:46 ] training: epoch: 23, loss: 1.8195, top1: 49.43%, lr: 0.100000
+[ 2024-11-11 12:46 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 12:49 ] training: epoch: 24, loss: 1.8183, top1: 49.34%, lr: 0.100000
+[ 2024-11-11 12:49 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 12:51 ] training: epoch: 25, loss: 1.7749, top1: 50.28%, lr: 0.100000
+[ 2024-11-11 12:51 ] evaluating: loss: 3.7132, top1: 23.00%, best_acc: 23.00%
+[ 2024-11-11 12:51 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 12:53 ] training: epoch: 26, loss: 1.7718, top1: 50.93%, lr: 0.100000
+[ 2024-11-11 12:53 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 12:56 ] training: epoch: 27, loss: 1.7503, top1: 50.73%, lr: 0.100000
+[ 2024-11-11 12:56 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 12:58 ] training: epoch: 28, loss: 1.7289, top1: 51.26%, lr: 0.100000
+[ 2024-11-11 12:58 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 13:00 ] training: epoch: 29, loss: 1.7204, top1: 51.69%, lr: 0.100000
+[ 2024-11-11 13:00 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 13:03 ] training: epoch: 30, loss: 1.6863, top1: 52.42%, lr: 0.100000
+[ 2024-11-11 13:03 ] evaluating: loss: 3.5407, top1: 24.75%, best_acc: 24.75%
+[ 2024-11-11 13:03 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 13:05 ] training: epoch: 31, loss: 1.6852, top1: 52.28%, lr: 0.100000
+[ 2024-11-11 13:05 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 13:08 ] training: epoch: 32, loss: 1.6666, top1: 52.89%, lr: 0.100000
+[ 2024-11-11 13:08 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 13:10 ] training: epoch: 33, loss: 1.6594, top1: 52.65%, lr: 0.100000
+[ 2024-11-11 13:10 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 13:12 ] training: epoch: 34, loss: 1.6446, top1: 53.10%, lr: 0.100000
+[ 2024-11-11 13:12 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 13:15 ] training: epoch: 35, loss: 1.6251, top1: 53.90%, lr: 0.100000
+[ 2024-11-11 13:15 ] evaluating: loss: 5.9459, top1: 12.50%, best_acc: 24.75%
+[ 2024-11-11 13:15 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 13:17 ] training: epoch: 36, loss: 1.6231, top1: 53.96%, lr: 0.100000
+[ 2024-11-11 13:17 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 13:19 ] training: epoch: 37, loss: 1.6094, top1: 54.41%, lr: 0.100000
+[ 2024-11-11 13:19 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 13:22 ] training: epoch: 38, loss: 1.5987, top1: 54.44%, lr: 0.100000
+[ 2024-11-11 13:22 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 13:24 ] training: epoch: 39, loss: 1.5759, top1: 55.23%, lr: 0.100000
+[ 2024-11-11 13:24 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 13:27 ] training: epoch: 40, loss: 1.5751, top1: 55.63%, lr: 0.100000
+[ 2024-11-11 13:27 ] evaluating: loss: 3.4920, top1: 26.55%, best_acc: 26.55%
+[ 2024-11-11 13:27 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 13:29 ] training: epoch: 41, loss: 1.5705, top1: 55.72%, lr: 0.100000
+[ 2024-11-11 13:29 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 13:31 ] training: epoch: 42, loss: 1.5609, top1: 55.93%, lr: 0.100000
+[ 2024-11-11 13:31 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 13:34 ] training: epoch: 43, loss: 1.5444, top1: 56.03%, lr: 0.100000
+[ 2024-11-11 13:34 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 13:36 ] training: epoch: 44, loss: 1.5305, top1: 56.20%, lr: 0.100000
+[ 2024-11-11 13:36 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 13:38 ] training: epoch: 45, loss: 1.5226, top1: 56.36%, lr: 0.100000
+[ 2024-11-11 13:38 ] evaluating: loss: 3.6355, top1: 25.75%, best_acc: 26.55%
+[ 2024-11-11 13:38 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 13:41 ] training: epoch: 46, loss: 1.5198, top1: 56.75%, lr: 0.100000
+[ 2024-11-11 13:41 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 13:43 ] training: epoch: 47, loss: 1.5155, top1: 56.43%, lr: 0.100000
+[ 2024-11-11 13:43 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 13:46 ] training: epoch: 48, loss: 1.4838, top1: 57.30%, lr: 0.100000
+[ 2024-11-11 13:46 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 13:48 ] training: epoch: 49, loss: 1.4819, top1: 57.27%, lr: 0.100000
+[ 2024-11-11 13:48 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 13:50 ] training: epoch: 50, loss: 1.4803, top1: 57.60%, lr: 0.100000
+[ 2024-11-11 13:50 ] evaluating: loss: 3.3368, top1: 28.20%, best_acc: 28.20%
+[ 2024-11-11 13:50 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 13:53 ] training: epoch: 51, loss: 1.4715, top1: 58.03%, lr: 0.100000
+[ 2024-11-11 13:53 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 13:55 ] training: epoch: 52, loss: 1.4747, top1: 57.56%, lr: 0.100000
+[ 2024-11-11 13:55 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 13:57 ] training: epoch: 53, loss: 1.4625, top1: 57.88%, lr: 0.100000
+[ 2024-11-11 13:57 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 14:00 ] training: epoch: 54, loss: 1.4526, top1: 58.24%, lr: 0.100000
+[ 2024-11-11 14:00 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 14:02 ] training: epoch: 55, loss: 1.4595, top1: 57.95%, lr: 0.100000
+[ 2024-11-11 14:02 ] evaluating: loss: 5.0001, top1: 18.30%, best_acc: 28.20%
+[ 2024-11-11 14:02 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 14:05 ] training: epoch: 56, loss: 1.4648, top1: 57.91%, lr: 0.100000
+[ 2024-11-11 14:05 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 14:07 ] training: epoch: 57, loss: 1.4374, top1: 58.50%, lr: 0.100000
+[ 2024-11-11 14:07 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 14:09 ] training: epoch: 58, loss: 1.4349, top1: 58.56%, lr: 0.100000
+[ 2024-11-11 14:09 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 14:12 ] training: epoch: 59, loss: 1.4132, top1: 59.60%, lr: 0.100000
+[ 2024-11-11 14:12 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 14:14 ] training: epoch: 60, loss: 1.4168, top1: 59.25%, lr: 0.100000
+[ 2024-11-11 14:14 ] evaluating: loss: 3.6839, top1: 26.05%, best_acc: 28.20%
+[ 2024-11-11 14:14 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 14:16 ] training: epoch: 61, loss: 1.0069, top1: 71.41%, lr: 0.010000
+[ 2024-11-11 14:16 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 14:19 ] training: epoch: 62, loss: 0.8465, top1: 75.72%, lr: 0.010000
+[ 2024-11-11 14:19 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 14:21 ] training: epoch: 63, loss: 0.7838, top1: 77.33%, lr: 0.010000
+[ 2024-11-11 14:21 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 14:24 ] training: epoch: 64, loss: 0.7411, top1: 78.69%, lr: 0.010000
+[ 2024-11-11 14:24 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 14:26 ] training: epoch: 65, loss: 0.6970, top1: 80.02%, lr: 0.010000
+[ 2024-11-11 14:26 ] evaluating: loss: 3.7380, top1: 34.80%, best_acc: 34.80%
+[ 2024-11-11 14:26 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 14:28 ] training: epoch: 66, loss: 0.6781, top1: 80.35%, lr: 0.010000
+[ 2024-11-11 14:28 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 14:31 ] training: epoch: 67, loss: 0.6376, top1: 81.60%, lr: 0.010000
+[ 2024-11-11 14:31 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 14:33 ] training: epoch: 68, loss: 0.6190, top1: 82.11%, lr: 0.010000
+[ 2024-11-11 14:33 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 14:35 ] training: epoch: 69, loss: 0.5897, top1: 82.78%, lr: 0.010000
+[ 2024-11-11 14:35 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 14:38 ] training: epoch: 70, loss: 0.5662, top1: 83.24%, lr: 0.010000
+[ 2024-11-11 14:38 ] evaluating: loss: 3.8612, top1: 34.40%, best_acc: 34.80%
+[ 2024-11-11 14:38 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 14:40 ] training: epoch: 71, loss: 0.5461, top1: 84.15%, lr: 0.010000
+[ 2024-11-11 14:40 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 14:43 ] training: epoch: 72, loss: 0.5299, top1: 84.58%, lr: 0.010000
+[ 2024-11-11 14:43 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 14:45 ] training: epoch: 73, loss: 0.5075, top1: 85.13%, lr: 0.010000
+[ 2024-11-11 14:45 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 14:47 ] training: epoch: 74, loss: 0.4869, top1: 86.24%, lr: 0.010000
+[ 2024-11-11 14:47 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 14:50 ] training: epoch: 75, loss: 0.4724, top1: 86.40%, lr: 0.010000
+[ 2024-11-11 14:50 ] evaluating: loss: 4.0547, top1: 33.55%, best_acc: 34.80%
+[ 2024-11-11 14:50 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 14:52 ] training: epoch: 76, loss: 0.4535, top1: 87.15%, lr: 0.010000
+[ 2024-11-11 14:52 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 14:54 ] training: epoch: 77, loss: 0.4387, top1: 87.28%, lr: 0.010000
+[ 2024-11-11 14:54 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 14:57 ] training: epoch: 78, loss: 0.4378, top1: 87.50%, lr: 0.010000
+[ 2024-11-11 14:57 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 14:59 ] training: epoch: 79, loss: 0.4066, top1: 88.56%, lr: 0.010000
+[ 2024-11-11 14:59 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 15:01 ] training: epoch: 80, loss: 0.3962, top1: 88.67%, lr: 0.010000
+[ 2024-11-11 15:01 ] evaluating: loss: 4.2280, top1: 33.85%, best_acc: 34.80%
+[ 2024-11-11 15:02 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 15:04 ] training: epoch: 81, loss: 0.3190, top1: 91.79%, lr: 0.001000
+[ 2024-11-11 15:04 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 15:06 ] training: epoch: 82, loss: 0.2912, top1: 92.62%, lr: 0.001000
+[ 2024-11-11 15:06 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 15:09 ] training: epoch: 83, loss: 0.2749, top1: 93.26%, lr: 0.001000
+[ 2024-11-11 15:09 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 15:11 ] training: epoch: 84, loss: 0.2685, top1: 93.46%, lr: 0.001000
+[ 2024-11-11 15:11 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 15:13 ] training: epoch: 85, loss: 0.2626, top1: 93.53%, lr: 0.001000
+[ 2024-11-11 15:13 ] evaluating: loss: 4.4608, top1: 34.35%, best_acc: 34.80%
+[ 2024-11-11 15:13 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 15:16 ] training: epoch: 86, loss: 0.2560, top1: 93.82%, lr: 0.001000
+[ 2024-11-11 15:16 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 15:18 ] training: epoch: 87, loss: 0.2532, top1: 93.86%, lr: 0.001000
+[ 2024-11-11 15:18 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 15:20 ] training: epoch: 88, loss: 0.2505, top1: 94.01%, lr: 0.001000
+[ 2024-11-11 15:20 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 15:23 ] training: epoch: 89, loss: 0.2438, top1: 94.12%, lr: 0.001000
+[ 2024-11-11 15:23 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-11 15:25 ] training: epoch: 90, loss: 0.2396, top1: 94.35%, lr: 0.001000
+[ 2024-11-11 15:25 ] evaluating: loss: 4.4931, top1: 34.55%, best_acc: 34.80%
+[ 2024-11-11 15:25 ] Done.
+

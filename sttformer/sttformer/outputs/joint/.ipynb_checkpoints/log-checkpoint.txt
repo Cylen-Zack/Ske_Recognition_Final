@@ -1,0 +1,188 @@
+[ 2024-11-10 22:19 ] Model load finished: model.sttformer.Model
+[ 2024-11-10 22:20 ] Model load finished: model.sttformer.Model
+[ 2024-11-10 22:20 ] Model load finished: model.sttformer.Model
+[ 2024-11-10 22:20 ] Data load finished
+[ 2024-11-10 22:20 ] Optimizer load finished: SGD
+[ 2024-11-10 22:20 ] base_lr: 0.1
+[ 2024-11-10 22:20 ] batch_size: 32
+[ 2024-11-10 22:20 ] config: ./config/uav_csv1/joint.yaml
+[ 2024-11-10 22:20 ] cuda_visible_device: 0,1,2,3
+[ 2024-11-10 22:20 ] device: [0]
+[ 2024-11-10 22:20 ] eval_interval: 5
+[ 2024-11-10 22:20 ] feeder: feeders.feeder_uav.Feeder
+[ 2024-11-10 22:20 ] ignore_weights: []
+[ 2024-11-10 22:20 ] lr_decay_rate: 0.1
+[ 2024-11-10 22:20 ] model: model.sttformer.Model
+[ 2024-11-10 22:20 ] model_args: {'len_parts': 6, 'num_frames': 120, 'num_joints': 17, 'num_classes': 155, 'num_heads': 3, 'kernel_size': [3, 5], 'num_persons': 2, 'num_channels': 3, 'use_pes': True, 'config': [[64, 64, 16], [64, 64, 16], [64, 128, 32], [128, 128, 32], [128, 256, 64], [256, 256, 64], [256, 256, 64], [256, 256, 64]]}
+[ 2024-11-10 22:20 ] nesterov: True
+[ 2024-11-10 22:20 ] num_epoch: 90
+[ 2024-11-10 22:20 ] num_worker: 0
+[ 2024-11-10 22:20 ] optimizer: SGD
+[ 2024-11-10 22:20 ] print_log: True
+[ 2024-11-10 22:20 ] run_mode: train
+[ 2024-11-10 22:20 ] save_epoch: 80
+[ 2024-11-10 22:20 ] save_score: True
+[ 2024-11-10 22:20 ] show_topk: [1, 5]
+[ 2024-11-10 22:20 ] start_epoch: 0
+[ 2024-11-10 22:20 ] step: [60, 80]
+[ 2024-11-10 22:20 ] test_batch_size: 32
+[ 2024-11-10 22:20 ] test_feeder_args: {'data_path': '/root/autodl-tmp/Data_processed/Mixformer_3d/Valid_Mixformer_3d.npz', 'split': 'test', 'debug': False, 'window_size': 120, 'p_interval': [0.95], 'vel': False, 'bone': False}
+[ 2024-11-10 22:20 ] train_feeder_args: {'data_path': '/root/autodl-tmp/Data_processed/Mixformer_3d/Train_Mixformer_3d.npz', 'split': 'train', 'debug': False, 'random_choose': False, 'random_shift': False, 'random_move': False, 'window_size': 120, 'normalization': False, 'random_rot': True, 'p_interval': [0.5, 1], 'vel': False, 'bone': False}
+[ 2024-11-10 22:20 ] warm_up_epoch: 5
+[ 2024-11-10 22:20 ] weight_decay: 0.0004
+[ 2024-11-10 22:20 ] weights: None
+[ 2024-11-10 22:20 ] work_dir: ./outputs/Test1
+[ 2024-11-10 22:20 ] # Parameters: 5967699
+[ 2024-11-10 22:20 ] ###***************start training***************###
+[ 2024-11-10 22:20 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-10 22:21 ] Model load finished: model.sttformer.Model
+[ 2024-11-10 22:21 ] Data load finished
+[ 2024-11-10 22:21 ] Optimizer load finished: SGD
+[ 2024-11-10 22:21 ] base_lr: 0.1
+[ 2024-11-10 22:21 ] batch_size: 128
+[ 2024-11-10 22:21 ] config: ./config/uav_csv1/joint.yaml
+[ 2024-11-10 22:21 ] cuda_visible_device: 0,1,2,3
+[ 2024-11-10 22:21 ] device: [0]
+[ 2024-11-10 22:21 ] eval_interval: 5
+[ 2024-11-10 22:21 ] feeder: feeders.feeder_uav.Feeder
+[ 2024-11-10 22:21 ] ignore_weights: []
+[ 2024-11-10 22:21 ] lr_decay_rate: 0.1
+[ 2024-11-10 22:21 ] model: model.sttformer.Model
+[ 2024-11-10 22:21 ] model_args: {'len_parts': 6, 'num_frames': 120, 'num_joints': 17, 'num_classes': 155, 'num_heads': 3, 'kernel_size': [3, 5], 'num_persons': 2, 'num_channels': 3, 'use_pes': True, 'config': [[64, 64, 16], [64, 64, 16], [64, 128, 32], [128, 128, 32], [128, 256, 64], [256, 256, 64], [256, 256, 64], [256, 256, 64]]}
+[ 2024-11-10 22:21 ] nesterov: True
+[ 2024-11-10 22:21 ] num_epoch: 90
+[ 2024-11-10 22:21 ] num_worker: 0
+[ 2024-11-10 22:21 ] optimizer: SGD
+[ 2024-11-10 22:21 ] print_log: True
+[ 2024-11-10 22:21 ] run_mode: train
+[ 2024-11-10 22:21 ] save_epoch: 80
+[ 2024-11-10 22:21 ] save_score: True
+[ 2024-11-10 22:21 ] show_topk: [1, 5]
+[ 2024-11-10 22:21 ] start_epoch: 0
+[ 2024-11-10 22:21 ] step: [60, 80]
+[ 2024-11-10 22:21 ] test_batch_size: 128
+[ 2024-11-10 22:21 ] test_feeder_args: {'data_path': '/root/autodl-tmp/Data_processed/Mixformer_3d/Valid_Mixformer_3d.npz', 'split': 'test', 'debug': False, 'window_size': 120, 'p_interval': [0.95], 'vel': False, 'bone': False}
+[ 2024-11-10 22:21 ] train_feeder_args: {'data_path': '/root/autodl-tmp/Data_processed/Mixformer_3d/Train_Mixformer_3d.npz', 'split': 'train', 'debug': False, 'random_choose': False, 'random_shift': False, 'random_move': False, 'window_size': 120, 'normalization': False, 'random_rot': True, 'p_interval': [0.5, 1], 'vel': False, 'bone': False}
+[ 2024-11-10 22:21 ] warm_up_epoch: 5
+[ 2024-11-10 22:21 ] weight_decay: 0.0004
+[ 2024-11-10 22:21 ] weights: None
+[ 2024-11-10 22:21 ] work_dir: ./outputs/Test1
+[ 2024-11-10 22:21 ] # Parameters: 5967699
+[ 2024-11-10 22:21 ] ###***************start training***************###
+[ 2024-11-10 22:21 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-10 22:21 ] Model load finished: model.sttformer.Model
+[ 2024-11-10 22:21 ] Data load finished
+[ 2024-11-10 22:21 ] Optimizer load finished: SGD
+[ 2024-11-10 22:21 ] base_lr: 0.1
+[ 2024-11-10 22:21 ] batch_size: 64
+[ 2024-11-10 22:21 ] config: ./config/uav_csv1/joint.yaml
+[ 2024-11-10 22:21 ] cuda_visible_device: 0,1,2,3
+[ 2024-11-10 22:21 ] device: [0]
+[ 2024-11-10 22:21 ] eval_interval: 5
+[ 2024-11-10 22:21 ] feeder: feeders.feeder_uav.Feeder
+[ 2024-11-10 22:21 ] ignore_weights: []
+[ 2024-11-10 22:21 ] lr_decay_rate: 0.1
+[ 2024-11-10 22:21 ] model: model.sttformer.Model
+[ 2024-11-10 22:21 ] model_args: {'len_parts': 6, 'num_frames': 120, 'num_joints': 17, 'num_classes': 155, 'num_heads': 3, 'kernel_size': [3, 5], 'num_persons': 2, 'num_channels': 3, 'use_pes': True, 'config': [[64, 64, 16], [64, 64, 16], [64, 128, 32], [128, 128, 32], [128, 256, 64], [256, 256, 64], [256, 256, 64], [256, 256, 64]]}
+[ 2024-11-10 22:21 ] nesterov: True
+[ 2024-11-10 22:21 ] num_epoch: 90
+[ 2024-11-10 22:21 ] num_worker: 0
+[ 2024-11-10 22:21 ] optimizer: SGD
+[ 2024-11-10 22:21 ] print_log: True
+[ 2024-11-10 22:21 ] run_mode: train
+[ 2024-11-10 22:21 ] save_epoch: 80
+[ 2024-11-10 22:21 ] save_score: True
+[ 2024-11-10 22:21 ] show_topk: [1, 5]
+[ 2024-11-10 22:21 ] start_epoch: 0
+[ 2024-11-10 22:21 ] step: [60, 80]
+[ 2024-11-10 22:21 ] test_batch_size: 64
+[ 2024-11-10 22:21 ] test_feeder_args: {'data_path': '/root/autodl-tmp/Data_processed/Mixformer_3d/Valid_Mixformer_3d.npz', 'split': 'test', 'debug': False, 'window_size': 120, 'p_interval': [0.95], 'vel': False, 'bone': False}
+[ 2024-11-10 22:21 ] train_feeder_args: {'data_path': '/root/autodl-tmp/Data_processed/Mixformer_3d/Train_Mixformer_3d.npz', 'split': 'train', 'debug': False, 'random_choose': False, 'random_shift': False, 'random_move': False, 'window_size': 120, 'normalization': False, 'random_rot': True, 'p_interval': [0.5, 1], 'vel': False, 'bone': False}
+[ 2024-11-10 22:21 ] warm_up_epoch: 5
+[ 2024-11-10 22:21 ] weight_decay: 0.0004
+[ 2024-11-10 22:21 ] weights: None
+[ 2024-11-10 22:21 ] work_dir: ./outputs/Test1
+[ 2024-11-10 22:21 ] # Parameters: 5967699
+[ 2024-11-10 22:21 ] ###***************start training***************###
+[ 2024-11-10 22:21 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-10 22:31 ] Model load finished: model.sttformer.Model
+[ 2024-11-10 22:31 ] Data load finished
+[ 2024-11-10 22:31 ] Optimizer load finished: SGD
+[ 2024-11-10 22:31 ] base_lr: 0.1
+[ 2024-11-10 22:31 ] batch_size: 64
+[ 2024-11-10 22:31 ] config: ./config/uav_csv1/joint.yaml
+[ 2024-11-10 22:31 ] cuda_visible_device: 0,1,2,3
+[ 2024-11-10 22:31 ] device: [0]
+[ 2024-11-10 22:31 ] eval_interval: 5
+[ 2024-11-10 22:31 ] feeder: feeders.feeder_uav.Feeder
+[ 2024-11-10 22:31 ] ignore_weights: []
+[ 2024-11-10 22:31 ] lr_decay_rate: 0.1
+[ 2024-11-10 22:31 ] model: model.sttformer.Model
+[ 2024-11-10 22:31 ] model_args: {'len_parts': 6, 'num_frames': 120, 'num_joints': 17, 'num_classes': 155, 'num_heads': 3, 'kernel_size': [3, 5], 'num_persons': 2, 'num_channels': 3, 'use_pes': True, 'config': [[64, 64, 16], [64, 64, 16], [64, 128, 32], [128, 128, 32], [128, 256, 64], [256, 256, 64], [256, 256, 64], [256, 256, 64]]}
+[ 2024-11-10 22:31 ] nesterov: True
+[ 2024-11-10 22:31 ] num_epoch: 90
+[ 2024-11-10 22:31 ] num_worker: 0
+[ 2024-11-10 22:31 ] optimizer: SGD
+[ 2024-11-10 22:31 ] print_log: True
+[ 2024-11-10 22:31 ] run_mode: train
+[ 2024-11-10 22:31 ] save_epoch: 80
+[ 2024-11-10 22:31 ] save_score: True
+[ 2024-11-10 22:31 ] show_topk: [1, 5]
+[ 2024-11-10 22:31 ] start_epoch: 0
+[ 2024-11-10 22:31 ] step: [60, 80]
+[ 2024-11-10 22:31 ] test_batch_size: 64
+[ 2024-11-10 22:31 ] test_feeder_args: {'data_path': '/root/autodl-tmp/Data_processed/Mixformer_3d/Valid_Mixformer_3d.npz', 'split': 'test', 'debug': False, 'window_size': 120, 'p_interval': [0.95], 'vel': False, 'bone': False}
+[ 2024-11-10 22:31 ] train_feeder_args: {'data_path': '/root/autodl-tmp/Data_processed/Mixformer_3d/Train_Mixformer_3d.npz', 'split': 'train', 'debug': False, 'random_choose': False, 'random_shift': False, 'random_move': False, 'window_size': 120, 'normalization': False, 'random_rot': True, 'p_interval': [0.5, 1], 'vel': False, 'bone': False}
+[ 2024-11-10 22:31 ] warm_up_epoch: 5
+[ 2024-11-10 22:31 ] weight_decay: 0.0004
+[ 2024-11-10 22:31 ] weights: None
+[ 2024-11-10 22:31 ] work_dir: ./outputs/Test1
+[ 2024-11-10 22:31 ] # Parameters: 5967699
+[ 2024-11-10 22:31 ] ###***************start training***************###
+[ 2024-11-10 22:31 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-10 22:33 ] training: epoch: 1, loss: 4.6788, top1: 2.11%, lr: 0.020000
+[ 2024-11-10 22:33 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-10 22:35 ] training: epoch: 2, loss: 3.8360, top1: 8.05%, lr: 0.040000
+[ 2024-11-10 22:35 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-10 22:38 ] training: epoch: 3, loss: 3.1052, top1: 18.44%, lr: 0.060000
+[ 2024-11-10 22:38 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-10 22:40 ] training: epoch: 4, loss: 2.6020, top1: 28.95%, lr: 0.080000
+[ 2024-11-10 22:40 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-10 22:43 ] training: epoch: 5, loss: 2.3199, top1: 35.63%, lr: 0.100000
+[ 2024-11-10 22:43 ] evaluating: loss: 3.3908, top1: 20.90%, best_acc: 20.90%
+[ 2024-11-10 22:43 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-10 22:45 ] training: epoch: 6, loss: 2.0942, top1: 41.41%, lr: 0.100000
+[ 2024-11-10 22:45 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-10 22:47 ] training: epoch: 7, loss: 1.9231, top1: 45.73%, lr: 0.100000
+[ 2024-11-10 22:47 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-10 22:50 ] training: epoch: 8, loss: 1.8255, top1: 48.05%, lr: 0.100000
+[ 2024-11-10 22:50 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-10 22:52 ] training: epoch: 9, loss: 1.7180, top1: 50.76%, lr: 0.100000
+[ 2024-11-10 22:52 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-10 22:54 ] training: epoch: 10, loss: 1.6561, top1: 52.41%, lr: 0.100000
+[ 2024-11-10 22:55 ] evaluating: loss: 3.1229, top1: 28.65%, best_acc: 28.65%
+[ 2024-11-10 22:55 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-10 22:57 ] training: epoch: 11, loss: 1.5837, top1: 54.14%, lr: 0.100000
+[ 2024-11-10 22:57 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-10 22:59 ] training: epoch: 12, loss: 1.5425, top1: 55.34%, lr: 0.100000
+[ 2024-11-10 22:59 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-10 23:02 ] training: epoch: 13, loss: 1.4772, top1: 57.02%, lr: 0.100000
+[ 2024-11-10 23:02 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-10 23:04 ] training: epoch: 14, loss: 1.4638, top1: 57.63%, lr: 0.100000
+[ 2024-11-10 23:04 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-10 23:06 ] training: epoch: 15, loss: 1.4166, top1: 59.18%, lr: 0.100000
+[ 2024-11-10 23:06 ] evaluating: loss: 3.2081, top1: 31.50%, best_acc: 31.50%
+[ 2024-11-10 23:06 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-10 23:09 ] training: epoch: 16, loss: 1.3976, top1: 59.35%, lr: 0.100000
+[ 2024-11-10 23:09 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-10 23:11 ] training: epoch: 17, loss: 1.3724, top1: 59.71%, lr: 0.100000
+[ 2024-11-10 23:11 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-10 23:14 ] training: epoch: 18, loss: 1.3535, top1: 60.58%, lr: 0.100000
+[ 2024-11-10 23:14 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-10 23:16 ] training: epoch: 19, loss: 1.3248, top1: 61.31%, lr: 0.100000
+[ 2024-11-10 23:16 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-10 23:18 ] training: epoch: 20, loss: 1.3122, top1: 61.70%, lr: 0.100000
+[ 2024-11-10 23:18 ] evaluating: loss: 2.9623, top1: 32.15%, best_acc: 32.15%
+[ 2024-11-10 23:18 ] adjust learning rate, using warm up, epoch: 5
+[ 2024-11-10 23:21 ] training: epoch: 21, loss: 1.2989, top1: 61.61%, lr: 0.100000
+[ 2024-11-10 23:21 ] adjust learning rate, using warm up, epoch: 5

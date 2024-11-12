@@ -1,0 +1,2 @@
+[ Sat Nov  9 15:54:26 2024 ] Load weights from ./output/TDGCN_B_3d/runs-36-9396.pt.
+[ Sat Nov  9 15:54:28 2024 ] using warm up, epoch: 5

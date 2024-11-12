@@ -1,0 +1,2 @@
+[ Sat Nov  9 16:16:47 2024 ] Load weights from ./output/MSTGCN_JM_3d/runs-41-10701.pt.
+[ Sat Nov  9 16:16:48 2024 ] using warm up, epoch: 5

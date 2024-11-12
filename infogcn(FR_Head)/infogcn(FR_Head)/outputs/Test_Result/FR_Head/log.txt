@@ -1,0 +1,2 @@
+[ Mon Nov 11 17:43:44 2024 ] Load weights from /root/autodl-tmp/UAV-SAR/infogcn(FR_Head)/outputs/Test2/runs-98-12740.pt.
+[ Mon Nov 11 17:43:45 2024 ] using warm up, epoch: 5

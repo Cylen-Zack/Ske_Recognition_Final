@@ -1,0 +1,3 @@
+[ 2024-11-11 21:46 ] Load weights from /root/autodl-tmp/UAV-SAR/sttformer/outputs/Test1/Test1.pt
+[ 2024-11-11 21:46 ] Model load finished: model.sttformer.Model
+[ 2024-11-11 21:46 ] Data load finished

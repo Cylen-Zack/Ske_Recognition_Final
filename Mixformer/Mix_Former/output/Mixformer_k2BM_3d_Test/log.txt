@@ -1,0 +1,2 @@
+[ Sat Nov  9 18:49:04 2024 ] Load weights from ./output/Mixformer_k2BM_3d/runs-70-9100.pt.
+[ Sat Nov  9 18:49:05 2024 ] using warm up, epoch: 5
